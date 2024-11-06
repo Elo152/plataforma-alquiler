@@ -1,0 +1,11 @@
+# Ignore IDE settings
+.vscode/
+.DS_Store
+
+# Ignore environment and sensitive data
+/src/config.php
+/uploads/
+
+# Ignore compiled files
+*.log
+*.env
