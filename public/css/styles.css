@@ -8,25 +8,65 @@ body{
     grid-template-rows: auto 1fr auto;
     min-height: 100dvh;
     font-family: 'Inter', sans-serif;
-}
-
-header {
-    padding: 1.2rem;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: #212529;
 }
 
 .header-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 2rem;
 }
 
-.logo a h1{
-    color:#0047AB;
-    font-size: 40px;
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    padding-left: 0.8rem;
+}
+
+.search {
+    padding: 1rem 1rem 1rem 2.7rem;
+    border: 1.2px solid #A3B8C1;
+    border-radius: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    width: 40rem;
+}
+
+.button {
+    background-color: #0047AB;
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #003580;
 }
 
 a{
     text-decoration: none;
+    color: #212529;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.categories-menu {
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categories-menu nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
